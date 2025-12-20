@@ -1,0 +1,1 @@
+# M5-Stick-Stash-Flipper-zero-Scripts-Idea
