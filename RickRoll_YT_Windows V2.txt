@@ -1,0 +1,12 @@
+REM Title: RickRoll
+REM Author: Jeffrey Koopman | JKCTech
+REM Description: Opens default browser and puts up RickRoll without ads
+REM Target:	Windows
+REM
+GUI 
+DELAY 1000
+STRING Microsoft Edge 
+ENTER
+DELAY 3000
+STRING  "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+ENTER
